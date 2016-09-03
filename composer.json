@@ -5,6 +5,8 @@
     "keywords": [ "saml2", "yii2","simplesamlphp","sp","idp" ],
     "homepage": "http://simplesamlphp.org",
     "license": "LGPL-3.0",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "Dat Tran",
