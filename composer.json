@@ -1,0 +1,29 @@
+{
+    "name": "trandat1001/yii2-simplesamlphp",
+    "description": "Integrate simplesamlphp/simplesamlphp into Yii 2 application",
+    "type": "project",
+    "keywords": [ "saml2", "yii2","simplesamlphp","sp","idp" ],
+    "homepage": "http://simplesamlphp.org",
+    "version": "0.0.1",
+    "license": "LGPL-3.0",
+    "authors": [
+        {
+            "name": "Dat Tran",
+            "email": "trandat100185@gmail.com",
+            "role": "Main Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "simplesamlphp/simplesamlphp": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SimpleSamlPhp\\": "src/"
+        }
+    },
+    "support": {
+        "issues": "https://github.com/trandat1001/yii2-simplesamlphp/issues",
+        "source": "https://github.com/trandat1001/yii2-simplesamlphp/simplesamlphp"
+    }
+}
